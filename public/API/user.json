@@ -1,0 +1,12 @@
+[
+  {
+    "userEmail": "amparo@cucumail.com",
+    "userPassword": "123",
+    "token": "Fake_token_for_amparo"
+  },
+  {
+    "userEmail": "manuel@cucumail.com",
+    "userPassword": "456",
+    "token": "Fake_token_for_manuel"
+  }
+]
