@@ -12,9 +12,13 @@ npm install
 
 ### Compiles and hot-reloads for development
 
+To run te server with hot-reload just open a terminal and type:
+
 ```
 npm run serve
 ```
+
+Then you can visit `http://localhost:8080/` and see the result.
 
 ### Compiles and minifies for production
 
