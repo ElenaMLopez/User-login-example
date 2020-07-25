@@ -74,6 +74,7 @@ Or with
 ```
 User Email: manuel@cucumail.com
 Password: 456
+
 ```
 
 When you arrive to the `Home` page, open the dev tools and go to the _Application_ section. Visit the `Local Storage` and check the `karumi_user_token`.
