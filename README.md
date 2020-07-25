@@ -51,3 +51,7 @@ npm run lint
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## Fake API
+
+We can find a mocked API to use in our APP at `./public/API/user.json`.
+
+There is actually just two users in to make the login at the APP.
