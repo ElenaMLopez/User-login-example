@@ -64,21 +64,25 @@ npm run serve
 
 You can make a login with two users:
 
+```bash
 User Email: amparo@cucumail.com
 Password: 123
+```
 
 Or with
 
-User Email: manuel@cucumail.com,
-Password: 456.
+```
+User Email: manuel@cucumail.com
+Password: 456
+```
 
-When you arrive to the `Home` page, open the dev tools and go to the _Application_ section. Visit the Local Storage and check the `karumi_user_token`.
+When you arrive to the `Home` page, open the dev tools and go to the _Application_ section. Visit the `Local Storage` and check the `karumi_user_token`.
 
 After make a Logout pressing the `Logout` button, this token must disappear.
 
 ### Notes
 
-In order to make the CI faster, actually we make the build only for node 10.x. If you want to change this, go to the main.yml file, delete the line `node-version: [10.x]` and uncomment the line below
+**1** - In order to make the CI faster, actually we make the build only for node 10.x. If you want to change this, go to the main.yml file, delete the line `node-version: [10.x]` and uncomment the line below
 
 ```yml
 strategy:
