@@ -1,6 +1,6 @@
 # BASIC LOGIN
 
-This project was bootstraped with the Cue-cli tool wiht this presets:
+This project was bootstraped with the Vue-cli tool wiht this presets:
 
 ![vue-cli-presets3](https://user-images.githubusercontent.com/27022503/88460836-85e94280-ce9f-11ea-8eaa-3a2b1e42c3a2.png)
 
