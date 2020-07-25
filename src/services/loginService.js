@@ -7,10 +7,10 @@ function hasToken(token_key) {
 }
 
 const loginService = (to, from, next) => {
-  if (to.path != '/login' && hasToken('karumi_user_token')) {
+  if (to.path != "/login" && hasToken("karumi_user_token")) {
     next();
   } else {
-    next('login');
+    next("login");
   }
 };
 

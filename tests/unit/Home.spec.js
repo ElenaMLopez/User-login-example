@@ -1,9 +1,9 @@
-import Home from '@/views/Home.vue';
-import { mount } from '@vue/test-utils';
+import Home from "@/views/Home.vue";
+import { mount } from "@vue/test-utils";
 
-describe('Render Home', () => {
-  it('Should have the Home component', () => {
+describe("Render Home", () => {
+  it("Should have the Home component", () => {
     const wrapper = mount(Home);
-    expect(wrapper.contains('.home')).toBe(true);
+    expect(wrapper.contains(".home")).toBe(true);
   });
 });

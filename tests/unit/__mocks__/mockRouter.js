@@ -1,13 +1,13 @@
-import routes from '@/router/routes';
-import VueRouter from 'vue-router';
-import { mockRouterComponents } from 'vue-test-utils-helpers';
+import routes from "@/router/routes";
+import VueRouter from "vue-router";
+import { mockRouterComponents } from "vue-test-utils-helpers";
 
 export default {
   mock() {
     const clearedRoutes = mockRouterComponents(routes);
     return new VueRouter({
-      mode: 'abstract',
-      routes: clearedRoutes,
+      mode: "abstract",
+      routes: clearedRoutes
     });
-  },
+  }
 };

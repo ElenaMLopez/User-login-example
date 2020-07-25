@@ -2,8 +2,12 @@
   <div class="home">
     <h1 data-cy="home-title">This is the Home page</h1>
     <p data-cy="home-loged">You are logged.</p>
-    <p data-cy="home-logout-info">You can log-out by pressing this button below</p>
-    <button class="secondarybtn" @click="_logOut" data-cy="log-out-button">Log Out</button>
+    <p data-cy="home-logout-info">
+      You can log-out by pressing this button below
+    </p>
+    <button class="secondarybtn" @click="_logOut" data-cy="log-out-button">
+      Log Out
+    </button>
   </div>
 </template>
 

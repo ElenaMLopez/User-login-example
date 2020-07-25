@@ -15,5 +15,5 @@ global.window.localStorage = {
   },
   removeItem: function(key) {
     delete this.data[key];
-  },
+  }
 };

@@ -19,8 +19,16 @@
         placeholder="Password"
         data-cy="input-userPass"
       />
-      <button v-on:click="_sendData" class="form-button primarybtn" data-cy="send-form">Login</button>
-      <p v-if="loginError" class="error" data-cy="error-message">Please try again</p>
+      <button
+        v-on:click="_sendData"
+        class="form-button primarybtn"
+        data-cy="send-form"
+      >
+        Login
+      </button>
+      <p v-if="loginError" class="error" data-cy="error-message">
+        Please try again
+      </p>
     </form>
   </div>
 </template>
