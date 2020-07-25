@@ -2,7 +2,7 @@
 
 This project was bootstraped with the Cue-cli tool wiht this presets:
 
-![Presets_image](<![vue-cli-presets3](https://user-images.githubusercontent.com/27022503/88460284-5d5f4980-ce9b-11ea-926d-ac92b60c33bd.png)>)
+![vue-cli-presets3](https://user-images.githubusercontent.com/27022503/88460836-85e94280-ce9f-11ea-8eaa-3a2b1e42c3a2.png)
 
 ## Project setup
 
