@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Login component from Home view Should render component 1`] = `
+<div>
+  <form type="submit" class="login-form"><input id="userEmail" type="email" name="email" placeholder="User Email" data-cy="input-userEmail" class="login-form__user-input"> <input id="userPassword" type="password" name="password" placeholder="Password" data-cy="input-userPass" class="login-form__user-input"> <button data-cy="send-form" class="form-button primarybtn">Login</button>
+    <!---->
+  </form>
+</div>
+`;
