@@ -1,6 +1,6 @@
 # BASIC LOGIN
 
-This project was bootstraped with the Vue-cli tool wiht this presets:
+This project was bootstrapped with the Vue-cli tool with these presets:
 
 ![vue-cli-presets3](https://user-images.githubusercontent.com/27022503/88460836-85e94280-ce9f-11ea-8eaa-3a2b1e42c3a2.png)
 
@@ -12,7 +12,7 @@ npm install
 
 ### Compiles and hot-reloads for development
 
-To run te server with hot-reload just open a terminal and type:
+To run the server with hot-reload just open a terminal and type:
 
 ```
 npm run serve
@@ -55,3 +55,34 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 We can find a mocked API to use in our APP at `./public/API/user.json`.
 
 There is actually just two users in to make the login at the APP.
+
+## User Happy path
+
+```bash
+npm run serve
+```
+
+You can make a login with two users:
+
+User Email: amparo@cucumail.com
+Password: 123
+
+Or with
+
+User Email: manuel@cucumail.com,
+Password: 456.
+
+When you arrive to the `Home` page, open the dev tools and go to the _Application_ section. Visit the Local Storage and check the `karumi_user_token`.
+
+After make a Logout pressing the `Logout` button, this token must disappear.
+
+### Notes
+
+In order to make the CI faster, actually we make the build only for node 10.x. If you want to change this, go to the main.yml file, delete the line `node-version: [10.x]` and uncomment the line below
+
+```yml
+strategy:
+  matrix:
+    node-version: [10.x]
+    # node-version: [10.x, 12.x, 14.x] to make the buil in other NodeJs versions
+```
