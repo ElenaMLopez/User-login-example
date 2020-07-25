@@ -1,29 +1,45 @@
 <template>
   <div class="home">
-    <p>home page</p>
+    <h1 data-cy="home-title">This is the Home page</h1>
+    <p data-cy="home-loged">You are logged.</p>
+    <p data-cy="home-logout-info">You can log-out by pressing this button below</p>
+    <button class="secondarybtn" @click="_logOut" data-cy="log-out-button">Log Out</button>
   </div>
 </template>
 
 <script>
 export default {
-  name: "Welcome"
+  name: "Home",
+  methods: {
+    _logOut() {
+      localStorage.clear();
+      this.$router.push("/login");
+    }
+  }
 };
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped lang="scss">
-h3 {
-  margin: 40px 0 0;
+<style lang="scss" scoped>
+$primary-color-dark: #0e3669;
+.home {
+  color: $primary-color-dark;
 }
-ul {
-  list-style-type: none;
-  padding: 0;
+.secondarybtn {
+  background: #36a0f7;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  margin-top: 30px;
+  margin: 20px 0;
+  padding: 10px 10px;
+  width: 30%;
 }
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
+
 a {
-  color: #42b983;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
 }
 </style>
